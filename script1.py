@@ -31,8 +31,7 @@ onlyfiles = [ f for f in listdir(mypath) if isfile(join(mypath,f)) ]
 
 driver = webdriver.Firefox()
 
-username = driver.find_element_by_name("admin_name")
-password = driver.find_element_by_name("admin_password")
+
 
 driver.find_element_by_name("submit").click()
 for y in onlyfiles:
