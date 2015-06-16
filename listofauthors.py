@@ -37,7 +37,7 @@ password = driver.find_element_by_name("admin_password")
 driver.find_element_by_name("submit").click()
 '''
 for y in onlyfiles:
-	#driver.get("http://millenniumzoology.com/admin/article.php")	
+	
 
 	x=getPDFContent(mypath+y).encode("ascii", "ignore")
 	''' 
